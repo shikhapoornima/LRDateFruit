@@ -12,7 +12,7 @@ import pickle
 
 
 app = Flask(__name__)
-model = pickle.load(open('Assignmentlinear.pkl','rb')) 
+model = pickle.load(open('/home/shikha683/LRDateFruit/Assignmentlinear.pkl','rb')) 
 
 
 @app.route('/')
